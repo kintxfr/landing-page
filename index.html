@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Kin's website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+      <div class="content">
+      <header>      
+            <nav id="home">
+                  <ul>
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#gallery">Gallery</a></li>
+                     <li><a href="#contact us">Contact us</a></li>
+                  </ul> 
+            </nav>  
+
+            <div class="main">
+                  <h1>nitenichi</h1>
+                  <p>Philosophy in manga panels</p>     
+            </div>
+      </header>
+      </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script>
+
+      $(window).scroll(function(){
+            if($(window).scrollTop()){
+                  $("nav").addClass("white");
+            }
+            else{
+                $("nav").removeClass("white");
+      }
+
+});
+
+</script>
+
+<div class="gallery" id="gallery">
+      <div class="card card1">
+           <h2><a href="second.html">The Heavens as One</a></h2>
+      </div>
+      <div class="card card2">
+            <h2><a href="third.html">Dokkodo</a></h2>
+       </div>
+</div>    
+ 
+<section class="about">
+      <h4 id="about">About</h4>
+      <p>talking about philosophy esp stoicsm in mang apanels cs im familiar w it</p>
+</section>
+
+<section class="contact">
+      <h4 id="contact us">Contact us</h4>
+      <p>ask my baba</p>
+</section>
+
+
+</body>
+</html>
